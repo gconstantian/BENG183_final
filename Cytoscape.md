@@ -10,6 +10,14 @@
 
 ## Introduction
 
+### What is Cytoscape?
+
+Cytoscape was created by a group of researchers including (list of names here) as a tool for network biology research. 
+
+### What are the different apps in Cytoscape?
+
+### What is Network Biology?
+
 * * *
 
 ## Applications
