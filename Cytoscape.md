@@ -22,6 +22,16 @@ The current maintenance and development of Cytoscape is being funded by the U.S.
 
 ### What are the different apps in Cytoscape?
 
+Apps (formerly called Plugins) are additional features you can add to your Cytoscape core that can be found on the Cytoscape website. These apps can be created by anyone and the creators of Cytoscape encourage people to develop apps. 
+
+To install apps follow the steps below:
+
+1. Go to the Cytoscape App Store and find the app you want: https://apps.cytoscape.org/
+2. Open Cytoscape on your computer and go to the menu bar, choose Apps -> App Manager
+3. Select the Install Apps tab and in the Download Site box type in "http://apps.cytoscape.org/"
+4. In the search box type in the name of the app you would like to download
+5. Click the Install button to install the app
+
 ### What is Network Biology?
 
 * * *
