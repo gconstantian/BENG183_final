@@ -24,13 +24,24 @@ The current maintenance and development of Cytoscape is being funded by the U.S.
 
 Apps (formerly called Plugins) are additional features you can add to your Cytoscape core that can be found on the Cytoscape website. These apps can be created by anyone and the creators of Cytoscape encourage people to develop apps. 
 
-To install apps follow the steps below:
+To install an app follow the steps below:
 
 1. Go to the Cytoscape App Store and find the app you want: https://apps.cytoscape.org/
 2. Open Cytoscape on your computer and go to the menu bar, choose Apps -> App Manager
 3. Select the Install Apps tab and in the Download Site box type in "http://apps.cytoscape.org/"
 4. In the search box type in the name of the app you would like to download
 5. Click the Install button to install the app
+
+You can also uninstall apps or temporarily disable apps as well. To do this go to the 'Currently Installed' tab in the app manager to find the app and then select uninstall or disable depending on your need. 
+
+The Top 6 Apps on Cytoscape are:
+
+1. ClueGo
+2. StringApp
+3. MCODE
+4. yFiles Layout Algorithms
+5. CluePedia
+6. BiNGO
 
 ### What is Network Biology?
 
