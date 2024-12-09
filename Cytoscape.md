@@ -16,6 +16,8 @@ Cytoscape was created in 2002 by a group of researchers including Paul Shannon, 
 
 Cytoscape's architecture includes a core and additional apps you can plug in for enhanced data integration, analysis, and visualization. Cytoscape core gives the user basic functionality to layout and query their data and to visually integrate the network with state data. For more complex projects plugins might be required to analyze and visualize data.
 
+Cytoscape is a non-profit, open source project that is sponsored on public and private grants. Whenever using Cytoscape for a project it is important to cite the original paper. To access the paper click this link: (https://genome.cshlp.org/content/13/11/2498.full.pdf+html)
+
 ### What are the different apps in Cytoscape?
 
 ### What is Network Biology?
