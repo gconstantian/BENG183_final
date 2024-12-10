@@ -40,7 +40,7 @@ The Top 6 Apps on Cytoscape are:
 2. StringApp - Imports functional associations or physical interactions between protein-chemical and protein-protein pairs from a variety of sources. Users can provide a list of genes, proteins, compounds, diseases, species etc and the app queries the database to return a matching network.
 3. MCODE - Clusters a network based on topology to find highly interconnected regions.
 4. yFiles Layout Algorithms - Connects layout algorithms from the yFiles diagramming libraries to your Cytoscape.
-5. CluePedia -  
+5. CluePedia - Search tool for new markers that are potentially associated to a variety of pathways. CluePedia calculates both linear and non-linear statistical dependencies from data. CluePedia depends on the ClueGo app, so make sure both are installed.
 6. BiNGO - 
 
 ### What is Network Biology?
