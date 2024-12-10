@@ -66,11 +66,11 @@ Apps can be used to perform specialized tasks. Cytoscape software is Java-based,
 ### Fields
 Cytoscape helps visualize data for many different biological fields. Its features are easily adjusted and can even apply to data in non-biological contexts.
 
-<img src="ICUOTUs.png" alt="ICUOTU_Image" width="600"/>
+<img src="PPI.png" alt="PPI_Image" width="200"/>
 In systems biology, one can display molecular interaction networks, biological pathways, and gene expression. A common example is the PPI, or protein protein interaction map. This image shows a hierarchical layout done by stringApp representing a GO analysis of retina regeneration effective growth. 
 	
-Picture here.
-With epidemiology, disease transmission and contact tracing can be visualized. This image represents the presence of different bacteria in different locations within an ICU. We can see how the circular nodes represent different OTUs and are placed in reference to the three location nodes, as well as color coded to show their location prevalence. The size of the nodes also represent their mean relative abundance. 
+<img src="ICUOTUs.png" alt="ICUOTU_Image" width="600"/>
+With epidemiology, disease transmission and contact tracing can be visualized. This image represents the presence of different bacteria in different locations within an ICU. We can see how the circular nodes represent different OTUs and are placed in reference to the three location nodes, as well as color coded to show their location prevalence. The size of the nodes also represent their mean relative abundance.
 	
 Within ecology, one can visualize ecosystems, food webs, and resource flow. The hierarchical layout is a great feature for arranging species based on trophic levels for these examples. 
 
