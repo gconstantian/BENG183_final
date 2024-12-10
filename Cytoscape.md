@@ -90,7 +90,7 @@ Priamrily, the Cytoscape layout is separated into three distinct panels
 2. Top right-central panel is where the network/cluster visualization populates after a network is selected from the previous panel
 3. Bottom right-horizontal panel contain all tabular data associated with your current session, including things like functional enrichment results
 
-<img src="beng183image_02.png" alt="Layout_Image" width="600"/>
+<img src="beng183image_02.png" alt="Layout_Image" width="350"/>
 
 ### Creating our Background
 Now with this general understanding, using the query section located at the top of the vertical panel we input all protein symbols in our study. With these provided we perform functional enrichment using the whole genome as the intitial background which will effectively allow us to create our own background set of proteins.
