@@ -89,8 +89,17 @@ Priamrily, the Cytoscape layout is separated into three distinct panels
 1. Vertical panel on the left side of the platform is where each network populates and provides the user with the number of nodes and edges respectively, along with network management features   
 2. Top right-central panel is where the network/cluster visualization populates after a network is selected from the previous panel
 3. Bottom right-horizontal panel contain all tabular data associated with your current session, including things like functional enrichment results
+
+
 * * *
 
 ## Sources
+
+- https://github.com/cytoscape/cytoscape-tutorials/wiki#presentations-1
+- https://genome.cshlp.org/content/13/11/2498.full#aff-3
+- https://blog.js.cytoscape.org/2020/05/11/layouts/
+- https://manual.cytoscape.org/en/latest/Introduction.html
+- Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res. 2003 Nov;13(11):2498-504. doi: 10.1101/gr.1239303. PMID: 14597658; PMCID: PMC403769.
+- Sporta Caputi, S., Kabala, J.P., Rossi, L. et al. Individual diet variability shapes the architecture of Antarctic benthic food webs. Sci Rep 14, 12333 (2024). https://doi.org/10.1038/s41598-024-62644-5
 
 *
