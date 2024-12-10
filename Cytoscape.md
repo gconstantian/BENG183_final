@@ -79,9 +79,10 @@ With neuroscience, one can display neural networks. The force-directed layouts a
 Cytoscape can also be adjusted to display data for non-biological fields. For example, with sociology, we can display group interactions and relationships. 
 
 ### Wine and Cheese
-<img src="wine-and-cheese-concentric.png" alt="WineAndCheeseConcentric" width="600"/>
+<img src="wine-and-cheese-overview.png" alt="WineAndCheeseOverview" width="600"/>
 An intriguing example of a map is this [wine and cheese map](http://www.wineandcheesemap.com/). The red nodes represent red wines, the white nodes represent white wines, and the yellow nodes represent cheese types. 
 
+<img src="wine-and-cheese-concentric.png" alt="WineAndCheeseConcentric" width="600"/>
 So the map shows all the different connections, or pairings, that go well together. It is also interactive, zooming in to feature all the connections when you pick a node of interest. It also displays more information on the node and provides a link to more information. This map is a testament to the variety of data that can be visualized with Cytoscape.
 
 * * *
@@ -105,6 +106,8 @@ Priamrily, the Cytoscape layout is separated into three distinct panels
 - https://genome.cshlp.org/content/13/11/2498.full#aff-3
 - https://blog.js.cytoscape.org/2020/05/11/layouts/
 - https://manual.cytoscape.org/en/latest/Introduction.html
+- https://www.researchgate.net/figure/Profile-clustering-Cytoscape-network-visualize-the-40-most-abundant-OTUs-across-the-floor_fig2_235895761
+- https://www.researchgate.net/figure/Hierarchical-layout-of-the-PPI-network-performed-by-STRING-App-in-Cytoscape-372-This_fig1_348745936
 - Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res. 2003 Nov;13(11):2498-504. doi: 10.1101/gr.1239303. PMID: 14597658; PMCID: PMC403769.
 - Sporta Caputi, S., Kabala, J.P., Rossi, L. et al. Individual diet variability shapes the architecture of Antarctic benthic food webs. Sci Rep 14, 12333 (2024). https://doi.org/10.1038/s41598-024-62644-5
 
