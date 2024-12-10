@@ -41,7 +41,7 @@ The Top 6 Apps on Cytoscape are:
 3. MCODE - Clusters a network based on topology to find highly interconnected regions.
 4. yFiles Layout Algorithms - Connects layout algorithms from the yFiles diagramming libraries to your Cytoscape.
 5. CluePedia - Search tool for new markers that are potentially associated to a variety of pathways. CluePedia calculates both linear and non-linear statistical dependencies from data. CluePedia depends on the ClueGo app, so make sure both are installed.
-6. BiNGO - 
+6. BiNGO - Calculates overrepresented Gene Ontology categories in a set of genes and displays them as a network of significant Gene Ontology terms.
 
 ### What is Network Biology?
 
