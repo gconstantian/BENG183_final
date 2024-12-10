@@ -94,24 +94,34 @@ Priamrily, the Cytoscape layout is separated into three distinct panels
 Now with this general understanding, using the query section located at the top of the vertical panel we input all protein symbols in our study. With these provided we perform functional enrichment using the whole genome as the intitial background which will effectively allow us to create our own background set of proteins.
 
 ### Signficant proteins
-With our background protein-set established we can use it to perform functional enrichment on our statistically significant subset of proteins, which in our example is all proteins with a p-adjusted value of less than 0.05. Using our previously created background set will allow us to garner more finite pathways than if we were to perform functional enrichment on the whole genome, resulting with far too generalized pathways.
+With our background protein-set established we can use it to perform functional enrichment on our statistically significant subset of proteins, which in our example is all proteins with a p-adjusted value of less than 0.05. 
+Using our previously created background set will allow us to garner more finite pathways than if we were to perform functional enrichment on the whole genome, resulting with far too generalized pathways.
 
 <img src="beng183image_02.png" alt="Layout_Image2" width="300"/>
 
 ### Result
-As seen below, networks have populated in the vertical panel on the left, our cluster has populated in the top right central panel, and the functional enrichment data is now present in the horizontal panel at the bottom. Whilst we can infer some basic and very generalized pathways from this visualization, the lack of specificity makes it hard to distinguish any functional pathways at a smaller scale.
+As seen below, networks have populated in the vertical panel on the left, our cluster has populated in the top right central panel, and the functional enrichment data is now present in the horizontal panel at the bottom. 
+Whilst we can infer some basic and very generalized pathways from this visualization, the lack of specificity makes it hard to distinguish any functional pathways at a smaller scale.
 
 <img src="beng183image_03.png" alt="Layout_Image3" width="400"/>
 
 ### Clustering
-In order to reduce this large and complex cluster, we can use models like the Markov Cluster Algorithm (MCL) in order to effectively partition the singular cluster into multiple finite ones. By defining the Granularity Parameter (Inflation value), this algorithm gives the user control on how granular they want their clusters to be. To provide further insight into how this parameter works, a lower granularity parameter means fewer number of clusters, resulting with larger cluster size. Contrastingly, a higher granularity parameter means higher number of clusters, resulting with smaller cluster size. By utilizing MCL, we are able to enhance biological relevance and balance network complexity. 
+In order to reduce this large and complex cluster, we can use models like the Markov Cluster Algorithm (MCL) in order to effectively partition the singular cluster into multiple finite ones. 
+By defining the Granularity Parameter (Inflation value), this algorithm gives the user control on how granular they want their clusters to be. 
+To provide further insight into how this parameter works, a lower granularity parameter means fewer number of clusters, resulting with larger cluster size. Contrastingly, a higher granularity parameter means higher number of clusters, resulting with smaller cluster size. 
+By utilizing MCL, we are able to enhance biological relevance and balance network complexity. 
 
-<img src="beng183image_03.png" alt="Layout_Image3" width="400"/>
+<img src="beng183image_04.png" alt="Layout_Image4" width="400"/>
 
 This is an example of the Granularity Parameter set to 3, after performing MCL on the previously shown complex cluster.
 
 ### Customization
+Finally to touch on some of the features that allow users to take their visualization and network analysis a step further:
 
+- Cytoscape provides adjustable colour gradients in order to evoke further statistical significance
+- Cluster specific functional enrichment in order to extract related protein-protein interaction and function
+
+<img src="beng183image_05.png" alt="Layout_Image5" width="300"/>
 
 * * *
 
