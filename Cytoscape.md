@@ -38,7 +38,7 @@ The Top 6 Apps on Cytoscape are:
 
 1. ClueGo - Creates and Visualizes the non-redundant terms for large clusters of genes in a functinoally grouped network. Performs single cluster analysis and comparison of multiple clusters.
 2. StringApp - Imports functional associations or physical interactions between protein-chemical and protein-protein pairs from a variety of sources. Users can provide a list of genes, proteins, compounds, diseases, species etc and the app queries the database to return a matching network.
-3. MCODE - 
+3. MCODE - Clusters a network based on topology to find highly interconnected regions.
 4. yFiles Layout Algorithms -
 5. CluePedia - 
 6. BiNGO - 
