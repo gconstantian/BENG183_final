@@ -78,6 +78,12 @@ With neuroscience, one can display neural networks. The force-directed layouts a
 
 Cytoscape can also be adjusted to display data for non-biological fields. For example, with sociology, we can display group interactions and relationships. 
 
+### Wine and Cheese
+Picture here.
+An intriguing example of a map is this [wine and cheese map](http://www.wineandcheesemap.com/). The red nodes represent red wines, the white nodes represent white wines, and the yellow nodes represent cheese types. 
+
+So the map shows all the different connections, or pairings, that go well together. It is also interactive, zooming in to feature all the connections when you pick a node of interest. It also displays more information on the node and provides a link to more information. This map is a testament to the variety of data that can be visualized with Cytoscape.
+
 * * *
 
 ## Example - Proteomic data with StringApp
