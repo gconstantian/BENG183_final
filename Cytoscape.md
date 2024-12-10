@@ -84,6 +84,7 @@ Cytoscape can also be adjusted to display data for non-biological fields. For ex
 ## Layout
 Priamrily, the Cytoscape layout is separated into three distinct panels
 
+![Layout Image](beng183image_01.png)
 1. Vertical panel on the left side of the platform is where each network populates and provides the user with the number of nodes and edges respectively, along with network management features   
 2. Top right-central panel is where the network/cluster visualization populates after a network is selected from the previous panel
 3. Bottom right-horizontal panel contain all tabular data associated with your current session, including things like functional enrichment results
