@@ -66,7 +66,7 @@ Apps can be used to perform specialized tasks. Cytoscape software is Java-based,
 ### Fields
 Cytoscape helps visualize data for many different biological fields. Its features are easily adjusted and can even apply to data in non-biological contexts.
 
-Picture here.
+<img src="ICUOTUs.png" alt="ICUOTU_Image" width="600"/>
 In systems biology, one can display molecular interaction networks, biological pathways, and gene expression. A common example is the PPI, or protein protein interaction map. This image shows a hierarchical layout done by stringApp representing a GO analysis of retina regeneration effective growth. 
 	
 Picture here.
