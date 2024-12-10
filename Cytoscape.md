@@ -45,6 +45,7 @@ The Top 6 Apps on Cytoscape are:
 
 ### What is Network Biology?
 
+Cytoscape is especially useful within the field of Network Biology. Network biology takes the extra step beyond single gene and pathway analysis to attempting to detect and ultimately model the complex multidimensional interactions of cells, organs, and organisms. In Network Biology graphs are created with the nodes representing the cell, organ, organisms etc and the edge representing the interaction between two nodes. 
 * * *
 
 ## Applications
