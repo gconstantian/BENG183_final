@@ -36,12 +36,12 @@ You can also uninstall apps or temporarily disable apps as well. To do this go t
 
 The Top 6 Apps on Cytoscape are:
 
-1. ClueGo
-2. StringApp
-3. MCODE
-4. yFiles Layout Algorithms
-5. CluePedia
-6. BiNGO
+1. ClueGo - Creates and Visualizes the non-redundant terms for large clusters of genes in a functinoally grouped network. Performs single cluster analysis and comparison of multiple clusters.
+2. StringApp - 
+3. MCODE - 
+4. yFiles Layout Algorithms -
+5. CluePedia - 
+6. BiNGO - 
 
 ### What is Network Biology?
 
