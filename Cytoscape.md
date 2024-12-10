@@ -64,18 +64,19 @@ Cytoscape can draw network and annotation data from external public databases.  
 Apps can be used to perform specialized tasks. Cytoscape software is Java-based, which means users can create customized ‘Apps’ for any specific data analysis, import, or visualization. There are also many apps already available in the ‘App Manager’ for network and molecular profile analysis. For example, the stringApp imports and augments Cytoscape networks from STRING.   
 
 ### Fields
-Cytoscape is useful for many biological fields in visualizing data. 
+Cytoscape helps visualize data for many different biological fields. Its features are easily adjusted and can even apply to data in non-biological contexts.
 
-In systems biology, one can display molecular interaction networks, biological pathways, and gene expression. A common example is PPI, or protein protein interaction map. 
+Picture here.
+In systems biology, one can display molecular interaction networks, biological pathways, and gene expression. A common example is the PPI, or protein protein interaction map. This image shows a hierarchical layout done by stringApp representing a GO analysis of retina regeneration effective growth. 
 	
-With epidemiology, disease transmission and contact tracing can be visualize. This image represents the presence of different bacteria in different locations within an ICU. 
+Picture here.
+With epidemiology, disease transmission and contact tracing can be visualized. This image represents the presence of different bacteria in different locations within an ICU. We can see how the circular nodes represent different OTUs and are placed in reference to the three location nodes, as well as color coded to show their location prevalence. The size of the nodes also represent their mean relative abundance. 
 	
-Within ecology, one can visualize ecosystems, food webs, and resource flow. 
+Within ecology, one can visualize ecosystems, food webs, and resource flow. The hierarchical layout is a great feature for arranging species based on trophic levels for these examples. 
 
-With neuroscience, one can display neural networks. 
+With neuroscience, one can display neural networks. The force-directed layouts are perfect for displaying highly connected neurons while avoiding edge overlap, making for readable and intuitive graphs.
 
 Cytoscape can also be adjusted to display data for non-biological fields. For example, with sociology, we can display group interactions and relationships. 
-
 
 * * *
 
