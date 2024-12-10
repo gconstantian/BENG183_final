@@ -81,7 +81,7 @@ Cytoscape can also be adjusted to display data for non-biological fields. For ex
 * * *
 
 ## Example - Proteomic data with StringApp
-## Layout
+### Layout
 Priamrily, the Cytoscape layout is separated into three distinct panels
 
 <img src="beng183image_01.png" alt="Layout_Image" width="600"/>
@@ -89,6 +89,14 @@ Priamrily, the Cytoscape layout is separated into three distinct panels
 1. Vertical panel on the left side of the platform is where each network populates and provides the user with the number of nodes and edges respectively, along with network management features   
 2. Top right-central panel is where the network/cluster visualization populates after a network is selected from the previous panel
 3. Bottom right-horizontal panel contain all tabular data associated with your current session, including things like functional enrichment results
+
+<img src="beng183image_02.png" alt="Layout_Image" width="600"/>
+
+### Creating our Background
+Now with this general understanding, using the query section located at the top of the vertical panel we input all protein symbols in our study. With these provided we perform functional enrichment using the whole genome as the intitial background which will effectively allow us to create our own background set of proteins.
+
+### Signficant proteins
+With our background protein-set established we can use it to perform functional enrichment on our statistically significant subset of proteins, which in our example is all proteins with a p-adjusted value of less than 0.05. Using our previously created background set will allow us to garner more finite pathways than if we were to perform functional enrichment on the whole genome, resulting with far too generalized pathways.
 
 
 * * *
@@ -102,4 +110,3 @@ Priamrily, the Cytoscape layout is separated into three distinct panels
 - Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res. 2003 Nov;13(11):2498-504. doi: 10.1101/gr.1239303. PMID: 14597658; PMCID: PMC403769.
 - Sporta Caputi, S., Kabala, J.P., Rossi, L. et al. Individual diet variability shapes the architecture of Antarctic benthic food webs. Sci Rep 14, 12333 (2024). https://doi.org/10.1038/s41598-024-62644-5
 
-*
