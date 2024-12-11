@@ -92,7 +92,7 @@ So the map shows all the different connections, or pairings, that go well togeth
 * * *
 
 ## Example - Proteomic data with StringApp
-## Layout
+### Layout
 Priamrily, the Cytoscape layout is separated into three distinct panels
 
 <img src="beng183image_01.png" alt="Layout_Image" width="600"/>
@@ -101,6 +101,47 @@ Priamrily, the Cytoscape layout is separated into three distinct panels
 2. Top right-central panel is where the network/cluster visualization populates after a network is selected from the previous panel
 3. Bottom right-horizontal panel contain all tabular data associated with your current session, including things like functional enrichment results
 
+### Creating our Background
+Now with this general understanding, using the query section located at the top of the vertical panel we input all protein symbols in our study. With these provided we perform functional enrichment using the whole genome as the intitial background which will effectively allow us to create our own background set of proteins.
+
+### Signficant proteins
+With our background protein-set established we can use it to perform functional enrichment on our statistically significant subset of proteins, which in our example is all proteins with a p-adjusted value of less than 0.05. 
+
+Using our previously created background set will allow us to garner more finite pathways than if we were to perform functional enrichment on the whole genome, resulting with far too generalized pathways.
+
+<img src="beng183image_02.png" alt="Layout_Image2" width="300"/>
+
+### Result
+As seen below, networks have populated in the vertical panel on the left, our cluster has populated in the top right central panel, and the functional enrichment data is now present in the horizontal panel at the bottom. 
+
+Whilst we can infer some basic and very generalized pathways from this visualization, the lack of specificity makes it hard to distinguish any functional pathways at a smaller scale.
+
+<img src="beng183image_03.png" alt="Layout_Image3" width="400"/>
+
+### Clustering
+In order to reduce this large and complex cluster, we can use models like the Markov Cluster Algorithm (MCL) in order to effectively partition the singular cluster into multiple finite ones. 
+
+By defining the Granularity Parameter (Inflation value), this algorithm gives the user control on how granular they want their clusters to be. 
+
+To provide further insight into how this parameter works, a lower granularity parameter means fewer number of clusters, resulting with larger cluster size. Contrastingly, a higher granularity parameter means higher number of clusters, resulting with smaller cluster size. 
+
+By utilizing MCL, we are able to enhance biological relevance and balance network complexity. 
+
+<img src="beng183image_04.png" alt="Layout_Image4" width="400"/>
+
+This is an example of the Granularity Parameter set to 3, after performing MCL on the previously shown complex cluster.
+
+### Customization
+Finally to touch on some of the features that allow users to take their visualization and network analysis a step further:
+
+- Cytoscape provides adjustable colour gradients in order to evoke further statistical significance
+- Cluster specific functional enrichment in order to extract related protein-protein interaction and function
+
+<img src="beng183image_05.png" alt="Layout_Image5" width="300"/>
+
+The colour gradient used was set to the Beta values resulting from prior statistical analysis for each protein 
+
+Functional enrichment results performed on each cluster separately, uncovered chemical and biological pathways relating to each cluster respectively (JAK-STAT signaling pathway and Carbon & Pyruvate Metabolism).
 
 * * *
 
@@ -115,4 +156,3 @@ Priamrily, the Cytoscape layout is separated into three distinct panels
 - Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res. 2003 Nov;13(11):2498-504. doi: 10.1101/gr.1239303. PMID: 14597658; PMCID: PMC403769.
 - Sporta Caputi, S., Kabala, J.P., Rossi, L. et al. Individual diet variability shapes the architecture of Antarctic benthic food webs. Sci Rep 14, 12333 (2024). https://doi.org/10.1038/s41598-024-62644-5
 
-*
