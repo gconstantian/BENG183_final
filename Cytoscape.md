@@ -128,6 +128,9 @@ Finally to touch on some of the features that allow users to take their visualiz
 
 <img src="beng183image_05.png" alt="Layout_Image5" width="300"/>
 
+The colour gradient used was set to the Beta values resulting from prior statistical analysis for each protein 
+
+Functional enrichment results performed on each cluster separately, uncovered chemical and biological pathways relating to each cluster respectively (JAK-STAT signaling pathway and Carbon & Pyruvate Metabolism).
 * * *
 
 ## Sources
